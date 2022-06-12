@@ -3,20 +3,12 @@ kind: API
 metadata:
   name: Edelivery.Mobile.Login
   description: Bff para implementacoes para fluxos de autenticacao 
-  labels:
-    example.com/custom: custom_label_value
-  annotations:
-    example.com/service-discovery: artistweb
   tags:
     - dotnet
-  links:
-    - url: https://admin.example-org.com
-      title: Admin Dashboard
-      icon: dashboard
 spec:
-  type: service
+  type: openapi
   lifecycle: production
-  owner: artist-relations-team
-  system: public-websites
+  owner: Farmarcas-edelivery
+  system: bff-api
   definition: 
     $text: https://api-stage-edelivery.febrafar.com.br/mobile/login/swagger/v1/swagger.json
