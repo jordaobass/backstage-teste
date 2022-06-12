@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: Edelivery.Mobile.Login
   description: Bff para implementacoes para fluxos de autenticacao 
@@ -18,5 +18,5 @@ spec:
   lifecycle: production
   owner: artist-relations-team
   system: public-websites
-  definition:
+  definition: 
     $text: https://api-stage-edelivery.febrafar.com.br/mobile/login/swagger/v1/swagger.json
