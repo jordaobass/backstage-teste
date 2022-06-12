@@ -1,22 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Edelivery.Mobile.Login
-  description: Bff para implementacoes para fluxos de autenticacao 
-  labels:
-    example.com/custom: custom_label_value
-  annotations:
-    example.com/service-discovery: artistweb
-  tags:
-    - .net core 6.0
+  name: backstage
+  description: |
+    Backstage is an open-source developer portal that puts the developer experience first.
   links:
-    - url: https://admin.example-org.com
-      title: Admin Dashboard
-      icon: dashboard
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
 spec:
-  type: service
-  lifecycle: production
-  owner: artist-relations-team
-  system: public-websites
-  definition:
-    $text: https://api-stage-edelivery.febrafar.com.br/mobile/login/swagger/v1/swagger.json
+  type: library
+  owner: CNCF
+  lifecycle: experimental
