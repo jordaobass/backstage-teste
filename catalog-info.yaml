@@ -8,7 +8,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: Farmarcas-edelivery
+  owner: e-delivery
   system: bff-api
   definition: 
     $text: https://api-stage-edelivery.febrafar.com.br/mobile/login/swagger/v1/swagger.json
