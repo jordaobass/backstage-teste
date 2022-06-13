@@ -7,4 +7,4 @@ spec:
   type: database
   owner: e-delivery
   system: artist-engagement-portal
-  dependencyOf: Edelivery.auth.api
+  dependencyOf: api:Edelivery.auth.api
