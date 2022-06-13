@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: auth-bd
+  description: Stores account login settings
+spec:
+  type: database
+  owner: e-delivery
+  system: artist-engagement-portal
