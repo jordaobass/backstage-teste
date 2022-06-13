@@ -10,5 +10,6 @@ spec:
   lifecycle: production
   owner: e-delivery
   system: bff-api
+  consumesApis: bff-mobile-login
   definition: 
     $text: https://api-stage-edelivery.febrafar.com.br/mobile/login/swagger/v1/swagger.json
