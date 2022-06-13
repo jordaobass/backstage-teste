@@ -11,6 +11,6 @@ spec:
   owner: e-delivery
   system: bff-api
   consumesApis: bff-mobile-login
-  dependsOn: auth-bd
+  dependsOn: resource:auth-bd
   definition: 
     $text: https://api-stage-edelivery.febrafar.com.br/mobile/login/swagger/v1/swagger.json
