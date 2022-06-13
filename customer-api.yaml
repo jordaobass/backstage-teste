@@ -9,5 +9,6 @@ spec:
   type: openapi
   lifecycle: production
   owner: e-delivery
+  apiProvidedBy: customer
   definition: 
     $text: https://api-stage-edelivery.febrafar.com.br/mobile/login/swagger/v1/swagger.json
