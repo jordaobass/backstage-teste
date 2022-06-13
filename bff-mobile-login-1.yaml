@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: bff-mobile-login
+  name: bff-mobile-login-1
   description: bff do login
 spec:
   type: website
