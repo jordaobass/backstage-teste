@@ -10,5 +10,7 @@ spec:
   type: service
   lifecycle: production
   owner: e-delivery
-  providesApi: ['customer-api']
-  apiConsumedBy: ['api:customer-mobile-bff']
+  providesApi: 
+    - customer-api
+  apiConsumedBy: 
+    - api:customer-mobile-bff
