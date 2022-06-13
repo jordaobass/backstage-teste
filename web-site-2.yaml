@@ -8,4 +8,4 @@ spec:
   owner: artist-relations-team
   system: artist-engagement-portal
   providesApis:
-    - auth-api
+    - auth-api-2
