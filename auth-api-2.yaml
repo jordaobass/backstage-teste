@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: Edelivery.auth.api
+  name: auth-api-2
   description: Bff para implementacoes para fluxos de autenticacao 
   tags:
     - dotnet
