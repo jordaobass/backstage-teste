@@ -13,4 +13,4 @@ spec:
   providesApi: 
     - customer-api
   apiConsumedBy: 
-    - api:customer-mobile-bff
+    - customer-mobile-bff
