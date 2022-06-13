@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer
+  description: customer component
+  tags:
+    - dotnet
+    - data
+spec:
+  type: service
+  lifecycle: production
+  owner: e-delivery
+  providesApi: customer-api
+  apiConsumedBy: ['api:customer-mobile-bff']
