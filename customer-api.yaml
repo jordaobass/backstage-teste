@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: customer-api
+  description: Bff para implementacoes para fluxos de autenticacao 
+  tags:
+    - dotnet
+spec:
+  type: openapi
+  lifecycle: production
+  owner: e-delivery
+  definition: 
+    $text: https://api-stage-edelivery.febrafar.com.br/mobile/login/swagger/v1/swagger.json
